@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_gravity="top">
+
+        <androidx.cardview.widget.CardView
+            app:cardElevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="220dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:textSize="30dp"
+                    android:text="Hi Sam."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="end"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="30dp"
+                    android:text="Let's check your car."/>
+
+                <Button
+                    android:layout_gravity="end"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/show_full_status"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Show full status"
+                    android:paddingRight="50dp"
+                    android:drawableLeft="@drawable/ic_add"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Just for you"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            />
+
+        <HorizontalScrollView
+            android:scrollbars="none"
+            android:paddingRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+                    android:layout_marginLeft="75dp"
+                    android:layout_height="150dp">
+
+                    <LinearLayout
+                        android:background="@drawable/mono"
+                        android:padding="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="Last Ride"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="30dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:textColor="@color/black"
+                            android:text="10.0 mi"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="14dp"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="See full history"/>
+
+                            <Button
+                                android:background="@drawable/ic_arrow"
+                                android:layout_width="25dp"
+                                android:layout_gravity="center"
+                                android:layout_height="25dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_marginLeft="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:background="@drawable/mono_black"
+                        android:padding="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_marginBottom="12dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="How to drive safely ?"/>
+
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/grey"
+                                android:textSize="14dp"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="Read more"/>
+
+                            <Button
+                                android:backgroundTint="@color/white"
+                                android:background="@drawable/ic_arrow"
+                                android:layout_width="25dp"
+                                android:layout_gravity="center"
+                                android:layout_height="25dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+
+
+        </HorizontalScrollView>
+
+
+        <HorizontalScrollView
+            android:scrollbars="none"
+            android:paddingRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:background="@drawable/mono_black"
+                        android:padding="20dp"
+                        android:layout_marginLeft="75dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:textColor="@color/grey"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="Service due"/>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="18dp"
+                                android:textColor="@color/white"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="Book a spot "/>
+
+                            <Button
+                                android:background="@drawable/ic_arrow"
+                                android:backgroundTint="@color/white"
+                                android:layout_width="25dp"
+                                android:layout_gravity="center"
+                                android:layout_height="25dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_marginLeft="10dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:background="@drawable/mono"
+                        android:padding="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:text="Claim your insurance"/>
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+
+
+        </HorizontalScrollView>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
